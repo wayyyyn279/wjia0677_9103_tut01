@@ -25,7 +25,5 @@ A useful coding technique for recreating this effect is a particle system combin
 ![Coding Example](images/codeexample.jpg)
 
 ### Example Links
-
-- https://p5js.org/examples/simulate-forces-noise-flow-field/
-- https://thecodingtrain.com/tracks/particles
-- https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_024_PerlinNoiseFlowField
+- Coding Train — Perlin Noise Flow Field  
+https://thecodingtrain.com/challenges/24-perlin-noise-flow-field/
