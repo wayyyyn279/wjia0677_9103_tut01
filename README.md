@@ -8,9 +8,9 @@ I am inspired by the glowing organic distortion effects used in *Annihilation*, 
 
 ### Reference Images
 
-![Image 1](images/annihilation1.jpg)
+![Image 1](images/annihilation1.jpeg)
 
-![Image 2](images/annihilation2.jpg)
+![Image 2](images/annihilation2.jpeg)
 
 ---
 
@@ -22,7 +22,7 @@ A useful coding technique for recreating this effect is a particle system combin
 
 ### Coding Technique Example
 
-![Coding Example](images/codeexample.jpg)
+![Coding Example](images/codeexample.jpeg)
 
 ### Example Links
 - Coding Train — Perlin Noise Flow Field  
