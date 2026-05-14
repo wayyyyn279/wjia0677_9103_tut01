@@ -5,11 +5,9 @@ Emotion Garden
 
 1. Overview
 
-Emotion Garden is an interactive generative system that allows users to cultivate a shared digital garden based on their emotional state.
+Emotion Garden is an interactive generative concept that explores how emotional states can be externalised through visual systems.
 
-Instead of representing emotions through explicit labels, the system translates them into growth, movement, colour, and decay, forming a dynamic and evolving visual environment.
-
-Multiple users can interact simultaneously, creating a collective emotional landscape that reflects diverse inner states.
+The project aims to create a calm and reflective space where users can express and observe their current emotions through growth, movement, colour, and decay.
 
 
 2. Inspiration
@@ -39,10 +37,11 @@ Link: https://www.lozano-hemmer.com/pulse_room.php?utm_source=chatgpt.com
 
 Emotion Garden explores how emotions can be externalised through a dynamic visual system.
 
+The system is not designed to categorise emotions, but to provide a space for emotional awareness and gentle self-reflection.
+
 The project introduces a two-layer interaction design:
 
 3.1 Mood (Environment Layer)
-
 This layer defines how the system behaves, including:
 
 a. Growth speed
@@ -57,6 +56,8 @@ This structure balances system control and user freedom, allowing emotions to be
 
 
 4. Interaction Design
+
+This interaction design allows users to engage with their emotions in a non-verbal and intuitive way.
 
 4.1 Mood Controls (Environment Layer)
 
@@ -94,7 +95,7 @@ a. X key resets the garden
 
 5. Techniques
 
-The project uses the following p5.js techniques:
+The project proposes the use of time-based animation, Perlin noise, and interactive input to simulate organic behaviour and emotional variation.
 
 a. Time-based animation
    Controls the lifecycle of flowers, including growth, bloom, and decay
@@ -126,16 +127,16 @@ Each mechanic is implemented as a separate module and integrated in the main ske
 
 7. Mechanic Ownership
 
-a. Time-based mechanic – [Your Name]
+a. Time-based mechanic – [Xinyu Chen]
    Responsible for the flower lifecycle, including growth, bloom, and decay
 
-b. Perlin noise and randomness – [Name]
+b. Perlin noise and randomness – [Wenjia Jiang]
    Responsible for organic motion and flow field behaviour
 
-c. User input – [Name]
+c. User input – [Fanfei li]
    Responsible for the mood and colour interaction system
 
-d. Audio – [Name]
+d. Audio – [All gruop members]
    Responsible for microphone-driven behaviour
 
 
@@ -165,12 +166,4 @@ b. Allow microphone access
 c. Use keyboard input to interact with the system
 
 
-11. Notes
 
-Emotion Garden is not designed to categorise emotions.
-
-Instead, it creates a space where emotions can:
-
-a. Be expressed
-b. Evolve over time
-c. Coexist with others in a shared environment
