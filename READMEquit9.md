@@ -145,8 +145,8 @@ This project was developed with the assistance of ChatGPT.
 
 It was used for:
 
-###a. Create project concept pictures
-###b. Provide interaction suggestions
+### a. Create project concept pictures
+### b. Provide interaction suggestions
 
 All generated content was reviewed and adapted by the team.
 
