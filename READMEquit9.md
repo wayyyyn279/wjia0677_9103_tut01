@@ -21,15 +21,21 @@ teamLab’s installations demonstrate how visual elements such as flowers and pa
 In Emotion Garden, we apply these ideas by allowing users to express their current mood through interaction. The garden grows, shifts, and fades over time, encouraging users to observe and release their emotions in a calm and reflective space.
 
 2.1 teamLab – Floating Flower Garden
+
 ![teamLab flowers](images/inspo1.jpeg)
+
 Link: https://www.teamlab.art/w/ffgarden/?utm_source=chatgpt.com
 
 2.2 teamLab – Koi and People
+
 ![teamLab koi](images/inspo2.jpeg)
+
 Link: https://www.teamlab.art/w/koi_and_people/
 
 2.3 Rafael Lozano-Hemmer – Pulse Room
+
 ![pulse room](images/inspo3.jpeg)
+
 Link: https://www.lozano-hemmer.com/pulse_room.php?utm_source=chatgpt.com
 
 
