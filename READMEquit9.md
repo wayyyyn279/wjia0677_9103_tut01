@@ -108,9 +108,6 @@ The project proposes the use of time-based animation, Perlin noise, and interact
 ### d. Audio input
    Controls real-time intensity
 
-### e. Particle systems and flow fields
-   Simulate environmental dynamics
-
 
 ## 6. System Structure
 
