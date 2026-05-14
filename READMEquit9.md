@@ -3,172 +3,74 @@
 ![cover](images/cover.jpeg)
 
 
-## 1. Overview
+## Part 1: Project Direction
 
-Emotion Garden is an interactive generative concept that explores how emotional states can be externalised through visual systems.
+Our team will create an **original interactive piece**.
 
-The project aims to create a calm and reflective space where users can express and observe their current emotions through growth, movement, colour, and decay.
+Emotion Garden explores how emotional states can be externalised through a generative visual system. It creates a calm and reflective space where users express emotions through growth, movement, colour, and decay.
+
+The project is inspired by interactive installations that translate internal states into visual environments. teamLab’s works demonstrate how digital elements respond organically to human presence, while Rafael Lozano-Hemmer’s *Pulse Room* shows how invisible internal states can be visualised.
+
+Emotion Garden applies these ideas by allowing emotions to be experienced through dynamic visual change rather than explicit labels.
 
 
-## 2. Inspiration
-
-These inspirations explore how digital environments can respond to internal states and create space for emotional reflection.
-
-teamLab’s installations demonstrate how visual elements such as flowers and particles can evolve in response to human presence, creating immersive environments that feel alive and responsive. This influenced our approach to designing a system that reacts to subtle changes rather than fixed inputs.
-
-“Pulse Room” by Rafael Lozano-Hemmer translates invisible bodily signals into visible light, making internal states perceivable. This inspired us to consider how emotions can be externalised in subtle and non-verbal ways.
-
-In Emotion Garden, we apply these ideas by allowing users to express their current mood through interaction. The garden grows, shifts, and fades over time, encouraging users to observe and release their emotions in a calm and reflective space.
-
-### 2.1 teamLab – Floating Flower Garden
+## Inspiration
 
 ![teamLab flowers](images/inspo1.jpeg)
 
-Link: https://www.teamlab.art/w/ffgarden/?utm_source=chatgpt.com
-
-### 2.2 teamLab – Koi and People
+Link: https://www.teamlab.art/w/ffgarden/
 
 ![teamLab koi](images/inspo2.jpeg)
 
 Link: https://www.teamlab.art/w/koi_and_people/
 
-### 2.3 Rafael Lozano-Hemmer – Pulse Room
-
 ![pulse room](images/inspo3.jpeg)
 
-Link: https://www.lozano-hemmer.com/pulse_room.php?utm_source=chatgpt.com
+Link: https://www.lozano-hemmer.com/pulse_room.php
 
 
-## 3. Concept
+## Part 2: Mechanics
 
-Emotion Garden explores how emotions can be externalised through a dynamic visual system.
+### Team Members
 
-The system is not designed to categorise emotions, but to provide a space for emotional awareness and gentle self-reflection.
+* Time-based — Xinyu Chen
+* Perlin noise — Wenjia Jiang
+* User input — Fanfei Li
+* Audio — All members
 
-The project introduces a two-layer interaction design:
+---
 
-### 3.1 Mood (Environment Layer)
-This layer defines how the system behaves, including:
+### 1. Time-based Mechanic
 
-a. Growth speed
+Controls the lifecycle of flowers, including growth, bloom, and decay over time.
 
-b. Motion patterns
+Users do not directly control this process. Instead, it unfolds continuously, reflecting how emotions evolve and creating a calm visual rhythm.
 
-c. Environmental dynamics
+### 2. Perlin Noise and Randomness Mechanic
 
-### 3.2 Colour (Expression Layer)
+Uses Perlin noise and randomness to generate organic motion and variation.
 
-This layer allows users to personalise their contribution within the system.
-
-This structure balances system control and user freedom, allowing emotions to be experienced rather than explicitly labelled.
-
-
-## 4. Interaction Design
-
-This interaction design allows users to engage with their emotions in a non-verbal and intuitive way.
-
-### 4.1 Mood Controls (Environment Layer)
-
-| Key | Emotion   | Behaviour                              |
-| --- | --------- | -------------------------------------- |
-| 1   | Calm      | Slow movement and soft transitions     |
-| 2   | Sadness   | Rain-like particles and slower growth  |
-| 3   | Joy       | Increased variation and lively motion  |
-| 4   | Intensity | Chaotic motion and stronger distortion |
+It affects movement, shape, and distribution. Different moods modify these parameters, producing smooth or chaotic behaviour.
 
 
-### 4.2 Colour Controls (Expression Layer)
+### 3. User Input Mechanic
 
-| Key | Colour       |
-| --- | ------------ |
-| R   | Red tones    |
-| B   | Blue tones   |
-| G   | Green tones  |
-| Y   | Yellow tones |
-| P   | Purple tones |
+Users select mood (1–4) and colour (R–P) through keyboard input.
 
-Colours are generated within controlled ranges to maintain visual consistency.
+Mood defines system behaviour, while colour defines visual expression. Feedback is communicated through flower generation and environmental change.
 
-### 4.3 Other Controls
+### 4. Audio Mechanic
 
-X key resets the garden
+Uses microphone input to influence system intensity.
 
-
-## 5. Techniques
-
-The project proposes the use of time-based animation, Perlin noise, and interactive input to simulate organic behaviour and emotional variation.
-
-a. Time-based animation
-   Controls the lifecycle of flowers, including growth, bloom, and decay
-
-b. Perlin noise and randomness
-   Generates organic shapes and smooth motion
-
-c. User input (keyboard interaction)
-   Implements the mood and colour system
-
-d. Audio input
-   Controls real-time intensity
-
-
-## 6. System Structure
-
-sketch.js
-│
-├── time-mechanic.js
-├── noise-mechanic.js
-├── input-mechanic.js
-├── audio-mechanic.js
-
-Each mechanic is implemented as a separate module and integrated in the main sketch.
-
-
-## 7. Mechanic Ownership
-
-### a. Time-based mechanic – [Xinyu Chen]
-   Responsible for the flower lifecycle, including growth, bloom, and decay
-
-### b. Perlin noise and randomness – [Wenjia Jiang]
-   Responsible for organic motion and flow field behaviour
-
-### c. User input – [Fanfei Li]
-   Responsible for the mood and colour interaction system
-
-### d. Audio – [All group members]
-   Responsible for microphone-driven behaviour
-
-
-## 8. AI Acknowledgement
-
-This project was developed with the assistance of ChatGPT.
-
-It was used for:
-
-a. Create project concept pictures
-
-b. Provide interaction suggestions
-
-All generated content was reviewed and adapted by the team.
-
-
-## 9. External References
-
-a. https://p5js.org/
-
-b. https://p5js.org/reference/#/p5/noise
-
-
-## 10. Proposed Interaction
-
-Users will interact with the system through keyboard input.
-
-Different emotional modes will influence:
-- movement
-- colour
-- growth behaviour
-- environmental effects
-
-The project is intended to be developed as an interactive visual experience.
+Louder sound increases movement and activity, while quieter input produces calmer visuals.
 
 
 
+## Part 3: Putting It Together
+
+The system combines all four mechanics into a single environment.
+
+User input defines mood and colour. Time-based processes control lifecycle. Perlin noise shapes motion, and audio input adjusts intensity.
+
+Together, they create a continuously evolving visual system that supports emotional reflection through organic movement and change.
