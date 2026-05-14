@@ -38,7 +38,7 @@ Link: https://www.lozano-hemmer.com/pulse_room.php
 * User input — Fanfei Li
 * Audio — All members
 
----
+![flow](images/flow.jpeg)
 
 ### 1. Time-based Mechanic
 
