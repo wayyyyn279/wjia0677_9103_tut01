@@ -20,9 +20,11 @@ Emotion Garden applies these ideas by allowing emotions to be experienced throug
 
 Link: https://www.teamlab.art/w/ffgarden/
 
+
 ![teamLab koi](images/inspo2.jpeg)
 
 Link: https://www.teamlab.art/w/koi_and_people/
+
 
 ![pulse room](images/inspo3.jpeg)
 
