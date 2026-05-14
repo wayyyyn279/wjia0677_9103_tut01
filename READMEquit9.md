@@ -87,14 +87,7 @@ This interaction design allows users to engage with their emotions in a non-verb
 
 Colours are generated within controlled ranges to maintain visual consistency.
 
-
-4.3 Audio Interaction
-
-a. Microphone input affects intensity and movement
-b. Higher audio levels produce stronger visual responses
-
-
-4.4 Other Controls
+4.3 Other Controls
 
 a. X key resets the garden
 
@@ -152,9 +145,8 @@ This project was developed with the assistance of ChatGPT.
 
 It was used for:
 
-a. Structuring modular code
-b. Supporting implementation of generative systems
-c. Assisting with interaction design
+a. Create project concept pictures
+b. Provide interaction suggestions
 
 All generated content was reviewed and adapted by the team.
 
