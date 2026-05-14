@@ -51,7 +51,9 @@ The project introduces a two-layer interaction design:
 This layer defines how the system behaves, including:
 
 a. Growth speed
+
 b. Motion patterns
+
 c. Environmental dynamics
 
 ### 3.2 Colour (Expression Layer)
@@ -96,16 +98,16 @@ X key resets the garden
 
 The project proposes the use of time-based animation, Perlin noise, and interactive input to simulate organic behaviour and emotional variation.
 
-### a. Time-based animation
+a. Time-based animation
    Controls the lifecycle of flowers, including growth, bloom, and decay
 
-### b. Perlin noise and randomness
+b. Perlin noise and randomness
    Generates organic shapes and smooth motion
 
-### c. User input (keyboard interaction)
+c. User input (keyboard interaction)
    Implements the mood and colour system
 
-### d. Audio input
+d. Audio input
    Controls real-time intensity
 
 
@@ -142,16 +144,18 @@ This project was developed with the assistance of ChatGPT.
 
 It was used for:
 
-### a. Create project concept pictures
-### b. Provide interaction suggestions
+a. Create project concept pictures
+
+b. Provide interaction suggestions
 
 All generated content was reviewed and adapted by the team.
 
 
 ## 9. External References
 
-###a. https://p5js.org/
-###b. https://p5js.org/reference/#/p5/noise
+a. https://p5js.org/
+
+b. https://p5js.org/reference/#/p5/noise
 
 
 ## 10. Proposed Interaction
